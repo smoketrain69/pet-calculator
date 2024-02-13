@@ -1,7 +1,7 @@
 const resultElement = document.getElementById('result')
 const input1 = document.getElementById('input1')
 const input2 = document.getElementById('input2')
-const submitBtn = document.getElementById('submit')
+const submitBtn = document.getElementById('Calculate')
 const plusBtn = document.getElementById('plus')
 const minusBtn = document.getElementById('minus')
 const multiplyBtn = document.getElementById('multiply')
@@ -24,6 +24,8 @@ multiplyBtn.onclick = function () {
 divideBtn.onclick = function () {
     action = '/'
 }
+
+
 
 function printResult(result) {
     if (result < 0) {
@@ -61,3 +63,6 @@ submitBtn.onclick = function () {
     //    printResult(sum)
     //}
 }
+
+
+
