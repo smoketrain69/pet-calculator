@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="shortcut icon"
+      href="https://s1.iconbird.com/ico/2013/9/446/w512h5121380376373MetroUICalculator.png"
+    >
+    <title>cal</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" >
+  </head>
+  <body>
+    <div class="osn">
+      <input
+        style="margin-left: -1px;"
+        type="number"
+        class="form-control mb-2"
+        placeholder="Введите 1 число"
+        id="input1"
+      />
+      <input
+        style="margin-left: 1px;"
+        type="number"
+        class="form-control mb-2"
+        placeholder="Введите 2 число"
+        id="input2"
+      />
+      <div class="buttons">
+        <button class="btn Plus" id="plus">+</button>
+        <button class="btn minus" id="minus">-</button>
+        <button class="btn multiply" id="multiply">*</button>
+        <button class="btn divide" id="divide">/</button>
+        <br>
+        <button class="btn alculate" id="Calculate">Вычислить</button>
+      </div>
+
+      <div class="result">
+        <p style="margin: 10px;">РЕЗУЛЬТАТ:</p>
+        <p id="result" style="margin: 10px;">...</p>
+      </div>
+    </div>
+  </body>
+</html>
