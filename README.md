@@ -1,2 +1,2 @@
-# calculator
+# Pet-project
 calculator
