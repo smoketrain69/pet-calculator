@@ -63,9 +63,3 @@ submitBtn.onclick = function () {
     //    printResult(sum)
     //}
 }
-document.querySelector('btn Plus').addEventListener('click',function(){
-    this.classList.toggle("activated");
-})
-
-
-
