@@ -1,2 +1,2 @@
 # Pet-project calculator
-simple calculator
+pinq calculator
